@@ -66,6 +66,19 @@ sudo ./bootstrap.sh
 . venv/bin/activate
 ```
 
+## Dependencies
+For the virtualenv you need the packages:
+  
+  * libffi-dev
+  * libssl-dev
+  * python-dev
+
+On debian or ubuntu, you can install them with
+
+```shell
+sudo apt-get install libffi-dev libssl-dev python-dev
+```
+
 ## Help
 
 Have a look into `./examples/` and
